@@ -1,0 +1,33 @@
+{
+  "name": "tweeter",
+  "version": "1.0.0",
+  "description": "A Treehouse Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanmoralesaz/tweeter.git"
+  },
+  "keywords": [
+    "Treehouse"
+  ],
+  "author": "Ryan Morales 2018",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanmoralesaz/tweeter/issues"
+  },
+  "homepage": "https://github.com/ryanmoralesaz/tweeter#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "config": "^1.30.0",
+    "express": "^4.16.2",
+    "nodemon": "^1.18.3",
+    "npm": "^6.2.0",
+    "pug": "^2.0.0-rc.4",
+    "require": "^2.4.20",
+    "twit": "^2.2.11"
+  }
+}
