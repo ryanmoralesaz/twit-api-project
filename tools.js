@@ -7,6 +7,6 @@ module.exports = {
   express,
   twit,
   app,
-  tools,
+  /*tools,*/
   bodyParser
 }

@@ -5,7 +5,9 @@ let {
   tools,
   bodyParser
 } = require('./tools.js');
+/* replace tools with config keys if config file doesn't deploy */
 let T = new twit(tools);
+
 let funnyTest;
 let tweetText = [],
   followerIds = [],
